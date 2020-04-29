@@ -22,7 +22,7 @@ p {
   <li><i class="far fa-envelope"></i>:AEE@aee.com</li>
   <li> <i class="fas fa-phone-alt"></i>:04832446</li>
   <div id="user_logo">
-    <i class="fas fa-user-lock" onclick="location.href='http://localhost/DevWeb/templates/login.php';" ></i>
+    <i class="fas fa-user-lock" onclick="location.href='../templates/login.php';" ></i>
   </div>
 </ul> 
 

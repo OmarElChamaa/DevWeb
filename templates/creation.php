@@ -57,7 +57,7 @@
 
 <?php include '../templates/footer.php'; ?>
 
-<!--<script src="http://localhost/DevWeb/assets/lang.js"> </script>-->
+<!--<script src="../assets/lang.js"> </script>-->
 </div>
 
 </body>

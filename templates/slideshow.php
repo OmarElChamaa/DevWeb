@@ -2,9 +2,9 @@
  <div class="slideshow-container">
 
 <!-- Full-width images with number and caption text -->
-<div class="mySlides fade" onclick="location.href='http://localhost/DevWeb/assets/evenement.php';">
+<div class="mySlides fade" onclick="location.href='../assets/evenement.php';">
   <div class="numbertext">1 / 3</div>
-  <img src="http://localhost/DevWeb/assets/img/event.jpg" style="width:100%">
+  <img src="../assets/img/event.jpg" style="width:100%">
   <div class="text" > Gouter gourmet </div>
 </div>
 

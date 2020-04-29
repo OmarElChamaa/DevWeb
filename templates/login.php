@@ -27,6 +27,22 @@
 <input type="submit" value="Submit">
 
 
+<?php
+function fetchAdmins($nom, $mdp){
+$db = new SQLite3('database.db', SQLITE3_OPEN_CREATE | SQLITE3_OPEN_READWRITE);
+$statement = $db->prepare('SELECT * FROM "admins" WHERE "name" = :name and "password" = :password');
+$statement->bindValue(':name', $nom);
+$statement->bindValue(':password',$mdp);
+$result = $statement->execute();
+$result->finalize();
+$db->close();
+}
+ 
+// Calling function
+getSum(10, 20);
+?>
+
+
 </form>
 </div>
 
