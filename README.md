@@ -1,3 +1,7 @@
+This was a university assignment where we had to create a website and implement required features as multiple languages,a sqlite 3 database etc..
+There is an issue with the display of events stored in the database.
+
+
 # Programmation Web 2 - L2S4 - 2020
 
 ## Utilisation du projet
